@@ -1,0 +1,17 @@
+To install mysql into c::b
+
+1. Copy all header files from:
+	wamp\bin\mysql\mysql######\include
+	to:
+	CodeBlocks\MinGW\include
+2. Copy libmysql.dll from:
+	wamp\bin\mysql\mysql######\lib
+	to:
+	reMU\src\reimp
+3. Run reimp.bat
+4. Copy libmysql.a from:
+	reMU\src\reimp
+	to:
+	CodeBlocks\MinGW\lib
+5. ????
+6. Profit

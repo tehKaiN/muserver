@@ -1,0 +1,335 @@
+# depslib dependency file v1.0
+1402765286 source:d:\mu\0.78 moje\gs\source_jsnew\jsnew\main.c
+	"main.h"
+
+1402765051 d:\mu\0.78 moje\gs\source_jsnew\jsnew\main.h
+	<windows.h>
+
+1405069584 source:d:\mu\0.78 moje\gs\source_jsnew\main.c
+	"main.h"
+
+1405067165 d:\mu\0.78 moje\gs\source_jsnew\main.h
+	<stdio.h>
+	<windows.h>
+	<winsock2.h>
+	"../source_common/utils.h"
+	"../source_common/_buildver.h"
+	"../source_common/_defines.h"
+	"../source_common/console.h"
+	"../source_common/log.h"
+	"../source_common/sql.h"
+	"../source_common/queue.h"
+	"db.h"
+	"iocp.h"
+	"netIO.h"
+	"config.h"
+	"user.h"
+	"gs.h"
+	"useLog.h"
+	"protocol.h"
+	"udp.h"
+	"serverState.h"
+
+1404988056 d:\mu\0.78 moje\gs\source_jsnew\console.h
+
+1405005545 source:d:\mu\0.78 moje\gs\source_jsnew\console.c
+	"main.h"
+
+1402771061 d:\mu\0.78 moje\gs\source_common\define.h
+	"Public.h"
+
+1039283536 d:\mu\0.78 moje\gs\source_common\public.h
+
+1405068697 source:d:\mu\0.78 moje\gs\source_jsnew\config.c
+	"main.h"
+
+1404894747 d:\mu\0.78 moje\gs\source_jsnew\config.h
+
+1404990793 d:\mu\0.78 moje\gs\source_jsnew\window.h
+
+1405060715 source:d:\mu\0.78 moje\gs\source_jsnew\window.c
+	"main.h"
+
+1403778936 d:\mu\0.78 moje\gs\source_jsnew\log.h
+
+1404069148 source:d:\mu\0.78 moje\gs\source_jsnew\log.c
+	"main.h"
+
+1404924101 d:\mu\0.78 moje\gs\source_jsnew\user.h
+
+1405405150 d:\mu\0.78 moje\gs\source_jsnew\gs.h
+
+1405405259 source:d:\mu\0.78 moje\gs\source_jsnew\gs.c
+	"main.h"
+
+1404925895 source:d:\mu\0.78 moje\gs\source_jsnew\user.c
+	"main.h"
+
+1403779052 d:\mu\0.78 moje\gs\source_jsnew\uselog.h
+
+1404922539 source:d:\mu\0.78 moje\gs\source_jsnew\uselog.c
+	"main.h"
+
+1403779042 d:\mu\0.78 moje\gs\source_jsnew\udp.h
+
+1405068580 source:d:\mu\0.78 moje\gs\source_jsnew\udp.c
+	"main.h"
+
+1403779025 d:\mu\0.78 moje\gs\source_jsnew\serverstate.h
+
+1405067180 d:\mu\0.78 moje\gs\source_jsnew\protocol.h
+	"../source_common/protocol/jg_structs.h"
+
+1404898282 source:d:\mu\0.78 moje\gs\source_jsnew\serverstate.c
+	"main.h"
+
+1405066931 d:\mu\0.78 moje\gs\source_jsnew\queue.h
+
+1404898550 source:d:\mu\0.78 moje\gs\source_jsnew\queue.c
+	"main.h"
+
+1405404645 d:\mu\0.78 moje\gs\source_jsnew\netio.h
+
+1405405358 source:d:\mu\0.78 moje\gs\source_jsnew\netio.c
+	"main.h"
+
+1403779060 d:\mu\0.78 moje\gs\source_jsnew\iocp.h
+
+1405404703 source:d:\mu\0.78 moje\gs\source_jsnew\iocp.c
+	"main.h"
+
+1405009315 source:d:\mu\0.78 moje\gs\source_jsnew\protocol.c
+	"main.h"
+
+1403883002 d:\mu\0.78 moje\gs\source_jsnew\protocol_structs.h
+
+1403970584 d:\mu\0.78 moje\gs\source_jsnew\sql.h
+
+1404120217 source:d:\mu\0.78 moje\gs\source_jsnew\sql.c
+	"main.h"
+
+1404924618 d:\mu\0.78 moje\gs\source_jsnew\db.h
+
+1405003669 source:d:\mu\0.78 moje\gs\source_jsnew\db.c
+	"main.h"
+
+1405066597 source:d:\mu\0.78 moje\gs\source_jsnew\main.rc
+	"main.h"
+
+1405005493 d:\mu\0.78 moje\gs\source_jsnew\buildver.h
+
+1405008741 d:\mu\0.78 moje\gs\source_common\defines.h
+
+1405009469 d:\mu\0.78 moje\gs\source_common\jg_protocol_structs.h
+	"../source_common/protocol_heads.h"
+
+1405008527 d:\mu\0.78 moje\gs\source_common\protocol_heads.h
+
+1405011491 source:d:\mu\0.78 moje\gs\source_common\console.c
+	"log.h"
+	"console.h"
+
+1405066886 d:\mu\0.78 moje\gs\source_common\log.h
+	<windows.h>
+	<stdio.h>
+	"utils.h"
+
+1405011456 d:\mu\0.78 moje\gs\source_common\console.h
+	<windows.h>
+
+1405011568 source:d:\mu\0.78 moje\gs\source_common\log.c
+	"log.h"
+
+1405055040 source:d:\mu\0.78 moje\gs\source_common\sql.c
+	"sql.h"
+
+1405055494 d:\mu\0.78 moje\gs\source_common\sql.h
+	<windows.h>
+	<sql.h>
+	<sqlext.h>
+	"console.h"
+
+1405005493 d:\mu\0.78 moje\gs\source_common\buildver.h
+
+1405068834 d:\mu\0.78 moje\gs\source_common\utils.h
+	<stdio.h>
+	<windows.h>
+
+1405068734 source:d:\mu\0.78 moje\gs\source_common\utils.c
+	"utils.h"
+
+1405005493 d:\mu\0.78 moje\gs\source_common\_buildver.h
+
+1405008741 d:\mu\0.78 moje\gs\source_common\_defines.h
+
+1405067355 d:\mu\0.78 moje\gs\source_common\queue.h
+	<windows.h>
+
+1405067245 d:\mu\0.78 moje\gs\source_common\protocol\jg_structs.h
+	"heads.h"
+
+1405069873 d:\mu\0.78 moje\gs\source_common\protocol\heads.h
+
+1405067382 source:d:\mu\0.78 moje\gs\source_common\queue.c
+	"queue.h"
+
+1406795198 source:d:\mu\0.78\source_common\console.c
+	"log.h"
+	"console.h"
+
+1405063286 d:\mu\0.78\source_common\log.h
+	<windows.h>
+	<stdio.h>
+	"utils.h"
+
+1405691588 d:\mu\0.78\source_common\utils.h
+	<stdio.h>
+	<windows.h>
+
+1405007856 d:\mu\0.78\source_common\console.h
+	<windows.h>
+
+1405007968 source:d:\mu\0.78\source_common\log.c
+	"log.h"
+
+1406631527 source:d:\mu\0.78\source_common\queue.c
+	"queue.h"
+
+1406631389 d:\mu\0.78\source_common\queue.h
+	<windows.h>
+
+1419158912 source:d:\mu\0.78\source_common\sql.c
+
+1419159185 d:\mu\0.78\source_common\sql.h
+
+1405691584 source:d:\mu\0.78\source_common\utils.c
+	"utils.h"
+
+1419256106 source:d:\mu\0.78\source_jsnew\config.c
+	"main.h"
+
+1419173066 d:\mu\0.78\source_jsnew\main.h
+	<stdio.h>
+	<windows.h>
+	<winsock2.h>
+	<mysql.h>
+	"../source_common/utils.h"
+	"../source_common/_buildver.h"
+	"../source_common/_defines.h"
+	"../source_common/console.h"
+	"../source_common/log.h"
+	"../source_common/queue.h"
+	"../source_common/iocp_sock.h"
+	"../source_common/mysql.h"
+	"db.h"
+	"config.h"
+	"user.h"
+	"gs.h"
+	"useLog.h"
+	"protocol.h"
+	"udp.h"
+	"serverState.h"
+	"gs.h"
+
+1405001893 d:\mu\0.78\source_common\_buildver.h
+
+1406744459 d:\mu\0.78\source_common\_defines.h
+
+1419172673 d:\mu\0.78\source_jsnew\db.h
+
+1403779060 d:\mu\0.78\source_jsnew\iocp.h
+
+1405694323 d:\mu\0.78\source_jsnew\netio.h
+
+1419189269 d:\mu\0.78\source_jsnew\config.h
+
+1405691416 d:\mu\0.78\source_jsnew\user.h
+
+1406718976 d:\mu\0.78\source_jsnew\gs.h
+	"../source_common/netclient.h"
+
+1403775452 d:\mu\0.78\source_jsnew\uselog.h
+
+1406718739 d:\mu\0.78\source_jsnew\protocol.h
+	"../source_common/protocol/jg_structs.h"
+	"../source_common/protocol/common_structs.h"
+
+1406718321 d:\mu\0.78\source_common\protocol\jg_structs.h
+	"heads.h"
+
+1405066273 d:\mu\0.78\source_common\protocol\heads.h
+
+1405691595 d:\mu\0.78\source_jsnew\udp.h
+
+1403775425 d:\mu\0.78\source_jsnew\serverstate.h
+
+1419419443 source:d:\mu\0.78\source_jsnew\db.c
+	"main.h"
+
+1406639736 source:d:\mu\0.78\source_jsnew\gs.c
+	"main.h"
+
+1405694340 source:d:\mu\0.78\source_jsnew\iocp.c
+	"main.h"
+
+1419259282 source:d:\mu\0.78\source_jsnew\main.c
+	"main.h"
+
+1405062997 source:d:\mu\0.78\source_jsnew\main.rc
+	"main.h"
+
+1405694416 source:d:\mu\0.78\source_jsnew\netio.c
+	"main.h"
+
+1419259884 source:d:\mu\0.78\source_jsnew\protocol.c
+	"main.h"
+
+1406629911 source:d:\mu\0.78\source_jsnew\serverstate.c
+	"main.h"
+
+1405691589 source:d:\mu\0.78\source_jsnew\udp.c
+	"main.h"
+
+1404918939 source:d:\mu\0.78\source_jsnew\uselog.c
+	"main.h"
+
+1406656982 source:d:\mu\0.78\source_jsnew\user.c
+	"main.h"
+
+1406717760 d:\mu\0.78\source_common\iocp_sock.h
+	"windows.h"
+	"winsock2.h"
+	"protocol/heads.h"
+	"console.h"
+	"queue.h"
+	"netclient.h"
+
+1406717783 source:d:\mu\0.78\source_common\iocp_sock.c
+	"iocp_sock.h"
+
+1405701843 source:d:\mu\0.78\source_common\iocp_listen.c
+	"iocp_listen.h"
+
+1405701850 d:\mu\0.78\source_common\iocp_listen.h
+	"windows.h"
+	"winsock2.h"
+
+1406714018 d:\mu\0.78\source_common\netclient.h
+	"windows.h"
+	"winsock2.h"
+
+1406714009 source:d:\mu\0.78\source_common\netclient.c
+	"netclient.h"
+	"console.h"
+
+1406718365 d:\mu\0.78\source_common\protocol\common_structs.h
+
+1419428635 d:\mu\0.78\source_common\mysql.h
+	<stdio.h>
+	<windows.h>
+	<mysql.h>
+	"console.h"
+
+1419285816 source:d:\mu\0.78\source_common\mysql.c
+	"mysql.h"
+

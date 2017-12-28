@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dsNew" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/dsNew" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../bin/" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wshadow" />
+					<Add option="-Winit-self" />
+					<Add option="-Wredundant-decls" />
+					<Add option="-Wunreachable-code" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="Ws2_32" />
+					<Add library="odbc32" />
+					<Add library="mysql" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/dsNew" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../bin/" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../source_common/_buildver.h" />
+		<Unit filename="../source_common/_defines.h" />
+		<Unit filename="../source_common/console.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../source_common/console.h" />
+		<Unit filename="../source_common/iocp_sock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../source_common/iocp_sock.h" />
+		<Unit filename="../source_common/item.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../source_common/item.h" />
+		<Unit filename="../source_common/log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../source_common/log.h" />
+		<Unit filename="../source_common/mysql.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../source_common/mysql.h" />
+		<Unit filename="../source_common/netclient.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../source_common/netclient.h" />
+		<Unit filename="../source_common/protocolCommon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../source_common/protocolCommon.h" />
+		<Unit filename="../source_common/protocol/common_structs.h" />
+		<Unit filename="../source_common/protocol/dg_structs.h" />
+		<Unit filename="../source_common/protocol/heads.h" />
+		<Unit filename="../source_common/queue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../source_common/queue.h" />
+		<Unit filename="../source_common/sql.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../source_common/sql.h" />
+		<Unit filename="../source_common/utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../source_common/utils.h" />
+		<Unit filename="config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="config.h" />
+		<Unit filename="db.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="db.h" />
+		<Unit filename="gs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gs.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="protocol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="protocol.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

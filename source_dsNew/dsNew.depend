@@ -1,0 +1,334 @@
+# depslib dependency file v1.0
+1405011491 source:d:\mu\0.78 moje\gs\source_common\console.c
+	"log.h"
+	"console.h"
+
+1405066886 d:\mu\0.78 moje\gs\source_common\log.h
+	<windows.h>
+	<stdio.h>
+	"utils.h"
+
+1405068834 d:\mu\0.78 moje\gs\source_common\utils.h
+	<stdio.h>
+	<windows.h>
+
+1405011456 d:\mu\0.78 moje\gs\source_common\console.h
+	<windows.h>
+
+1405011568 source:d:\mu\0.78 moje\gs\source_common\log.c
+	"log.h"
+
+1405067382 source:d:\mu\0.78 moje\gs\source_common\queue.c
+	"queue.h"
+
+1405067355 d:\mu\0.78 moje\gs\source_common\queue.h
+	<windows.h>
+
+1405055040 source:d:\mu\0.78 moje\gs\source_common\sql.c
+	"sql.h"
+
+1405055494 d:\mu\0.78 moje\gs\source_common\sql.h
+	<windows.h>
+	<sql.h>
+	<sqlext.h>
+	"console.h"
+
+1405068734 source:d:\mu\0.78 moje\gs\source_common\utils.c
+	"utils.h"
+
+1405071644 source:d:\mu\0.78 moje\gs\source_dsnew\main.c
+	"main.h"
+
+1405071284 d:\mu\0.78 moje\gs\source_dsnew\main.h
+	<stdio.h>
+	<windows.h>
+	<winsock2.h>
+	<sql.h>
+	<sqlext.h>
+	"../source_common/_buildver.h"
+	"../source_common/console.h"
+	"../source_common/log.h"
+	"../source_common/queue.h"
+	"../source_common/sql.h"
+	"netio.h"
+
+1405005493 d:\mu\0.78 moje\gs\source_common\_buildver.h
+
+1405271687 d:\mu\0.78 moje\gs\source_dsnew\netio.h
+	"../source_common/protocol/dg_structs.h"
+
+1405069857 d:\mu\0.78 moje\gs\source_common\protocol\dg_structs.h
+
+1405071305 source:d:\mu\0.78 moje\gs\source_dsnew\netio.c
+	"main.h"
+
+1419787043 source:d:\mu\0.78\source_common\console.c
+	"log.h"
+	"console.h"
+
+1405063286 d:\mu\0.78\source_common\log.h
+	<windows.h>
+	<stdio.h>
+	"utils.h"
+
+1405691588 d:\mu\0.78\source_common\utils.h
+	<stdio.h>
+	<windows.h>
+
+1405007856 d:\mu\0.78\source_common\console.h
+	<windows.h>
+
+1419624585 source:d:\mu\0.78\source_common\iocp_sock.c
+	"iocp_sock.h"
+
+1406717760 d:\mu\0.78\source_common\iocp_sock.h
+	"windows.h"
+	"winsock2.h"
+	"protocol/heads.h"
+	"console.h"
+	"queue.h"
+	"netclient.h"
+
+1405066273 d:\mu\0.78\source_common\protocol\heads.h
+
+1406631389 d:\mu\0.78\source_common\queue.h
+	<windows.h>
+
+1406714018 d:\mu\0.78\source_common\netclient.h
+	"windows.h"
+	"winsock2.h"
+
+1405007968 source:d:\mu\0.78\source_common\log.c
+	"log.h"
+
+1406714009 source:d:\mu\0.78\source_common\netclient.c
+	"netclient.h"
+	"console.h"
+
+1406631527 source:d:\mu\0.78\source_common\queue.c
+	"queue.h"
+
+1419158912 source:d:\mu\0.78\source_common\sql.c
+
+1419159185 d:\mu\0.78\source_common\sql.h
+
+1405691584 source:d:\mu\0.78\source_common\utils.c
+	"utils.h"
+
+1419763124 source:d:\mu\0.78\source_dsnew\main.c
+	"main.h"
+
+1419453913 d:\mu\0.78\source_dsnew\main.h
+	<stdio.h>
+	<windows.h>
+	<winsock2.h>
+	<sql.h>
+	<sqlext.h>
+	"../source_common/_buildver.h"
+	"../source_common/_defines.h"
+	"../source_common/item.h"
+	"../source_common/console.h"
+	"../source_common/iocp_sock.h"
+	"../source_common/log.h"
+	"../source_common/netclient.h"
+	"../source_common/queue.h"
+	"../source_common/mysql.h"
+	"../source_common/utils.h"
+	"../source_common/protocolCommon.h"
+	"config.h"
+	"gs.h"
+	"protocol.h"
+	"db.h"
+
+1405001893 d:\mu\0.78\source_common\_buildver.h
+
+1419936007 d:\mu\0.78\source_dsnew\protocol.h
+	"../source_common/protocol/common_structs.h"
+	"../source_common/protocol/dg_structs.h"
+
+1419936053 source:d:\mu\0.78\source_dsnew\protocol.c
+	"main.h"
+
+1419614141 d:\mu\0.78\source_common\protocol\common_structs.h
+
+1419797958 d:\mu\0.78\source_common\protocol\dg_structs.h
+
+1406719006 d:\mu\0.78\source_dsnew\gs.h
+	"../source_common/netclient.h"
+
+1406719071 source:d:\mu\0.78\source_dsnew\gs.c
+	"main.h"
+
+1419529212 d:\mu\0.78\source_common\_defines.h
+
+1419535725 d:\mu\0.78\source_dsnew\db.h
+
+1419763173 source:d:\mu\0.78\source_dsnew\db.c
+	"main.h"
+
+1419936086 source:d:\mu\0.78\source_common\item.c
+	"item.h"
+
+1419782512 d:\mu\0.78\source_common\item.h
+	"_defines.h"
+	<stdio.h>
+	<windows.h>
+	"console.h"
+
+1419451973 source:d:\mu\0.78\source_common\mysql.c
+	"mysql.h"
+
+1419428635 d:\mu\0.78\source_common\mysql.h
+	<stdio.h>
+	<windows.h>
+	<mysql.h>
+	"console.h"
+
+1419529306 d:\mu\0.78\source_dsnew\config.h
+
+1419529292 source:d:\mu\0.78\source_dsnew\config.c
+	"main.h"
+
+1419454559 d:\mu\0.78\source_common\protocolcommon.h
+	<windows.h>
+	"console.h"
+
+1406795198 d:\mu\0.78\source_common\console.c
+	"log.h"
+	"console.h"
+
+1419613857 source:d:\mu\0.78\source_common\protocolcommon.c
+	"protocolCommon.h"
+
+1419787043 source:c:\dropbox\remu\src\source_common\console.c
+	"log.h"
+	"console.h"
+
+1405063286 c:\dropbox\remu\src\source_common\log.h
+	<windows.h>
+	<stdio.h>
+	"utils.h"
+
+1405691588 c:\dropbox\remu\src\source_common\utils.h
+	<stdio.h>
+	<windows.h>
+
+1405007856 c:\dropbox\remu\src\source_common\console.h
+	<windows.h>
+
+1419624585 source:c:\dropbox\remu\src\source_common\iocp_sock.c
+	"iocp_sock.h"
+
+1406717760 c:\dropbox\remu\src\source_common\iocp_sock.h
+	"windows.h"
+	"winsock2.h"
+	"protocol/heads.h"
+	"console.h"
+	"queue.h"
+	"netclient.h"
+
+1405066273 c:\dropbox\remu\src\source_common\protocol\heads.h
+
+1406631389 c:\dropbox\remu\src\source_common\queue.h
+	<windows.h>
+
+1406714018 c:\dropbox\remu\src\source_common\netclient.h
+	"windows.h"
+	"winsock2.h"
+
+1419936086 source:c:\dropbox\remu\src\source_common\item.c
+	"item.h"
+
+1419782512 c:\dropbox\remu\src\source_common\item.h
+	"_defines.h"
+	<stdio.h>
+	<windows.h>
+	"console.h"
+
+1419529212 c:\dropbox\remu\src\source_common\_defines.h
+
+1405007968 source:c:\dropbox\remu\src\source_common\log.c
+	"log.h"
+
+1419451973 source:c:\dropbox\remu\src\source_common\mysql.c
+	"mysql.h"
+
+1419428635 c:\dropbox\remu\src\source_common\mysql.h
+	<stdio.h>
+	<windows.h>
+	<mysql.h>
+	"console.h"
+
+1406714009 source:c:\dropbox\remu\src\source_common\netclient.c
+	"netclient.h"
+	"console.h"
+
+1419613857 source:c:\dropbox\remu\src\source_common\protocolcommon.c
+	"protocolCommon.h"
+
+1419454559 c:\dropbox\remu\src\source_common\protocolcommon.h
+	<windows.h>
+	"console.h"
+
+1406631527 source:c:\dropbox\remu\src\source_common\queue.c
+	"queue.h"
+
+1419158912 source:c:\dropbox\remu\src\source_common\sql.c
+
+1405691584 source:c:\dropbox\remu\src\source_common\utils.c
+	"utils.h"
+
+1419529292 source:c:\dropbox\remu\src\source_dsnew\config.c
+	"main.h"
+
+1420829946 c:\dropbox\remu\src\source_dsnew\main.h
+	<stdio.h>
+	<windows.h>
+	<winsock2.h>
+	<sql.h>
+	<sqlext.h>
+	"../source_common/_buildver.h"
+	"../source_common/_defines.h"
+	"../source_common/item.h"
+	"../source_common/console.h"
+	"../source_common/iocp_sock.h"
+	"../source_common/log.h"
+	"../source_common/netclient.h"
+	"../source_common/queue.h"
+	"../source_common/mysql.h"
+	"../source_common/utils.h"
+	"../source_common/protocolCommon.h"
+	"config.h"
+	"gs.h"
+	"protocol.h"
+	"db.h"
+
+1405001893 c:\dropbox\remu\src\source_common\_buildver.h
+
+1419529306 c:\dropbox\remu\src\source_dsnew\config.h
+
+1406719006 c:\dropbox\remu\src\source_dsnew\gs.h
+	"../source_common/netclient.h"
+
+1419936007 c:\dropbox\remu\src\source_dsnew\protocol.h
+	"../source_common/protocol/common_structs.h"
+	"../source_common/protocol/dg_structs.h"
+
+1419614141 c:\dropbox\remu\src\source_common\protocol\common_structs.h
+
+1419797958 c:\dropbox\remu\src\source_common\protocol\dg_structs.h
+
+1419535725 c:\dropbox\remu\src\source_dsnew\db.h
+
+1419763173 source:c:\dropbox\remu\src\source_dsnew\db.c
+	"main.h"
+
+1406719071 source:c:\dropbox\remu\src\source_dsnew\gs.c
+	"main.h"
+
+1419763124 source:c:\dropbox\remu\src\source_dsnew\main.c
+	"main.h"
+
+1420131048 source:c:\dropbox\remu\src\source_dsnew\protocol.c
+	"main.h"
+

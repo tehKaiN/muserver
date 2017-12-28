@@ -1,0 +1,3 @@
+#include "main.h"
+
+RES_ICON ICON DISCARDABLE "../source_common/muicon.ico"
